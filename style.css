@@ -1,0 +1,277 @@
+* {
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main,
+.box {
+  width: 100%;
+  height: 90vh;
+}
+.main {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/42a0bce6-fc59-4c1c-b335-7196a59ae9ab/web/IN-en-20250303-TRIFECTA-perspective_d5f81427-d6cf-412d-8e86-2315671b9be1_large.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box {
+  background-color: black;
+  opacity: 0.7;
+  position: absolute;
+  top: 0px;
+  box-shadow: inset -25px 5px 5px rgb(0, 0, 0),
+    /* Bottom-left */ inset 25px 5px 5px rgba(0, 0, 0, 0),
+    /* Bottom-right */ inset -25px -5px 5px rgba(0, 0, 0, 0),
+    /* Top-left */ inset 25px -5px 5px rgba(0, 0, 0, 0); /* Top-right */
+}
+nav {
+  /* background-color: red; */
+  position: relative;
+  z-index: 3;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70vw;
+  margin: auto;
+}
+.NetlfixLogo {
+  /* fill: red; */
+  /* color: red; */
+  width: 151px;
+  height: 108px;
+  position: relative;
+  /* background-color: red; */
+}
+.Language {
+  width: 150px;
+  height: 40px;
+  color: white;
+  border: 2px solid rgba(127, 123, 123, 0.477);
+}
+.sidebar {
+}
+button {
+  background-color: transparent;
+  position: relative;
+  left: 30px;
+}
+.signIn {
+  color: white;
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 7px;
+  margin-left: 10px;
+  width: 80px;
+  height: 40px;
+}
+.central{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+}
+.content {
+  width: 50%;
+  height: 45%;
+  position: relative;
+  z-index: 6;
+  top: 10px;
+  left: 25%;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 30px;
+  gap: 12px;
+  /* background-color: rebeccapurple; */
+}
+.bolder {
+  font-weight: 1000;
+  font-size: 50px;
+  display: flex;
+  padding-top: 0px;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+.smallFont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* font-size: 15px; */
+  gap: 20px;
+}
+div.smallFont > *:nth-child(1) {
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 0px;
+  /* background-color: red;   */
+}
+div.smallFont > *:nth-child(2) {
+  /* background-color: red; */
+  font-weight: 500;
+  font-size: 15px;
+  padding-top: 0px;
+}
+.start {
+  /* background-color: red; */
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  top: 55px;
+  /* left: 250px;   */
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  /* background-color: red; */
+}
+.Email {
+  background-color:rgba(52, 51, 51, 0.645);
+  width: 410px;
+  height: 55px;
+  margin-right: 20px;
+  /* top: 20px;
+  left: 60px; */
+  font-size: 16px;
+  border-radius: 8px;
+  /* position: absolute; */
+  color: rgba(205, 187, 187, 0.889);
+  text-align: left;
+  padding-left: 20px;
+  border: 2px solid  rgba(205, 187, 187, 0.889);
+}
+.GetStarted{
+    position: relative;
+    /* left: 419px;
+    top: 20px; */
+    width: 215px;
+    height: 55px;
+    border: 2px solid red;
+    font-weight: 400;
+    color: white;
+    font-size: 25px;
+     background-color: red;
+}
+.container1{
+  /* position: relative;
+  z-index: 50; */
+  width: 100%;
+  height: 70vh;
+  color: white;
+  background-color: black;
+}
+.series{
+  display: flex;
+  /* align-items:center; */
+  /* justify-content:space-evenly; */
+  position: relative;
+  top: 100px;
+  height: 40vh;
+  padding-top: 0px;
+  width: 80vw;
+  overflow: hidden;
+  margin: auto;
+  /* background-color: yellow; */
+}
+
+.trendLogo{
+  /* background-color: red; */
+  position: relative;
+  left:100px;
+  font-size: 22px;
+  font-weight : 900;
+  width: 295px;
+  height: 33px;
+  top: 60px;
+}
+.image1 , .image2 , .image3, .image4 , .image5{
+  /* background-color: red; */
+  margin: -23px 20px;
+  color: black;
+  background-repeat:no-repeat;
+  background-size: cover;
+  width: 40vw;
+  height: 40vh;
+  font-weight: 900;
+  font-size: 90px;
+  display: flex;
+  justify-content: flex-start;
+  align-items:end;
+}
+.image1{
+  background-image: url("https://occ-0-2482-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABTixI7Cz0HVkuB1KQvyT9xedX83h2ob_PwNRW74psOcCGFKugKnc9ErhsaNh6JyyjGFS7ZLrxafx7yAkgdqlsT2kP9b0oGHIRnY.jpg?r=a92");
+  
+}
+.image2{
+background-image: url("https://occ-0-2482-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABbod3HEQ8e1n7-RMYpfXAjRzsmdywF16AK7p7Ys7toNK49kV8YWIds9AzfzwW_BqbhN6BLbINMajFxZ0x9KHOKl1s2g5fG1waUo.jpg?r=cf5");
+}
+.image3{
+  background-image: url("https://occ-0-2482-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZMosKxdFgxev7W1YxooOu2wL_Kc3LwyYduCJ8nKme-kSdFXzCIRaMV4kYchreILRl6izcs-TrvJJCatDPe_vPwJ-wR6Zjk6yHTOXTM767pKfIrjgSGm5iTT5QFzgN6xjheO.jpg?r=06c");
+}
+.image4{
+  background-image: url("https://occ-0-2482-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfy0bT4c6_DdmFTe2zRiiYlJkIs72mKLwDP_0z1VVLDwYGE3sxSFjvXen7Gr_xMvWqmPhWB53kwtkW_dGW8k6RRL0QSbLuEz5tI.jpg?r=7c1");
+}
+.image5{
+  background-image: url("https://occ-0-2482-3647.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABRdIn8RTERehC5PBINwZCar6O_zkvAAWbQdiyHQWy_HSWVjY1VdYOhDL6Jc6mUnEV4-n2No9FJz4sWZPcUdurxgbeAIDLWXrnmw.jpg?r=207");
+}
+h3{
+  position: absolute;
+  text-shadow: 0 0 15px rgb(255, 255, 255); /* Adjust values as needed */
+  position: relative;
+  right:32px;
+  font-size: 100%;
+}
+.container2{
+  /* background-color: rebeccapurple; */
+  position: relative;
+  z-index: 23;
+  height: 200vh;
+  width: 90vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.row{
+  /* background-color:black; */
+  width: 90%;
+  height: 30%;
+  margin: 9px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.row1{
+  border: 2px solid white;
+  background-image: url("https://149360059.v2.pressablecdn.com/wp-content/uploads/2010/06/red-gradient-1030x773.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+  color: white;
+  margin: 1%;
+  border-radius: 13px;
+  width: 90%;
+  display: flex;
+  justify-content: baseline;
+  align-items:center;
+  flex-direction: column;
+  overflow:visible;
+}
+.row1 > h1{
+  margin: 32px;
+  font-size: 200%;
+}
+.row1 > h4{
+  margin: 22px;
+  font-size: 120%;
+}
